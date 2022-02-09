@@ -9,7 +9,7 @@
 ## JSX
 
 
-## Compoments
+## Reusable Compoments
 
 
 ## Virtual DOM
@@ -37,4 +37,18 @@ npx create-react-app
 
 
 
-### Parcel
+## Parcel and React
+
+Webpack has been the most popular module bundler for years. It takes multiple file (usually .js or .css) and "bundles" them together in a smaller set of files. It is used as the bundler in the Create-React-App toolchain taking your compoment files (.jsx or .js) and css styles and bundling them together after they are transpiled by Babel. 
+
+But Webpack requires many dependencies and configurations if you would install manually each of the required packages to create your own React toolchain.
+
+  - react and react-dom package
+  - babel (transpiles your JSX)
+  - webpack
+  - webpack-dev-server (serves your transpiled built files)
+
+If you look at the size of the node_modules folder when you use Creat-React-App or manually creating a React tool chain, it is quite large.
+
+Are there alternatives? Welcome Parcel.
+
