@@ -27,13 +27,13 @@ npx create-react-app
 ```
 
 
-## Webpack with React
+### Webpack with React
 
 Create-React-App (CRA) uses Webpack, Webpack Dev Server and Babel ...
 
 
 
-## Parcel with React
+### Parcel with React
 
 Webpack has been the most popular module bundler for years. It takes multiple file (usually .js or .css) and "bundles" them together in a smaller set of files. It is used as the bundler in the Create-React-App toolchain taking your compoment files (.jsx or .js) and css styles and bundling them together after they are transpiled by Babel. 
 
