@@ -1,11 +1,5 @@
 # React Basics
 
-## React vs jQuery
-
-- Speed
-- Virtual DOM
-- Scalabity 
-
 ## JSX
 
 
