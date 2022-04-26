@@ -3,7 +3,7 @@
 <a href="https://create-react-app.dev/">Create React App</a> is a build tool-chain that includes the following tools:
 
 - <a href="https://www.npmjs.com/package/react">react</a> and <a href="https://www.npmjs.com/package/react-dom">react-dom</a> packages
-- babel to transpile the JSX to react elements (DOM elements)
+- babel to ```transpile``` the JSX to react elements (DOM elements)
 - webpack to ```bundle``` all the files into one file
 - webpack devServer to ```listen``` for changes and run the ```build``` and ```serve``` the new files
 - jest and react-testing-library to support code and DOM tests
