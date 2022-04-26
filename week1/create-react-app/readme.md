@@ -1,5 +1,15 @@
 ## Starting the app:
 
+## This React app was created by Create React App which scaffolds a new React Project
+
+Create React App is a build tool-chain that includes the following tools:
+
+- react and react-dom packages
+- babel to transpile the JSX to react elements (DOM elements)
+- webpack to ```bundle``` all the files into one file
+- webpack devServer to ```listen``` for changes in develop to run the build process and serve the updated files to the browser
+- jest and react-testing-library to support code and DOM tests
+
 In the project directory, you can run:
 
 #### `npm start`
