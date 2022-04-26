@@ -1,9 +1,9 @@
 import Home from "../views/Home";
 
-const Main = () => {
+const Main = ({store}) => {
   return (
     <main>
-        <Home />
+        <Home store ={store}/>
     </main>
   );
 }   

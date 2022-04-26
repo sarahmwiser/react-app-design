@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="container">
       <Header links = {navLinks} />
-      <Main />
+      <Main store = {STORE}/>
       <Footer />
     </div>
   );
