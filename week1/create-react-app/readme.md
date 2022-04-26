@@ -1,8 +1,6 @@
-## Starting the app:
+### This React app was created by Create React App which scaffolds a new React Project
 
-## This React app was created by Create React App which scaffolds a new React Project
-
-Create React App is a build tool-chain that includes the following tools:
+<a href="https://create-react-app.dev/">Create React App</a> is a build tool-chain that includes the following tools:
 
 - react and react-dom packages
 - babel to transpile the JSX to react elements (DOM elements)
