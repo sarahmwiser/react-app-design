@@ -1,0 +1,96 @@
+/* 
+ *  Using one CSS file is only recommneded for small React apps.
+ *  For larger apps: Use multiple CSS files (CSS Modules) or CSS-in-JS (styled components)
+ *     for individual compoment styling.
+ *     https://css-tricks.com/css-modules-part-1-need/
+ *  
+ *
+ *  note: But you still can use one CSS file for reponsive styling or use a package*
+ *
+ *  sticky footer: https://css-tricks.com/couple-takes-sticky-footer/
+ *
+ */
+
+ @import url('http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500');
+
+ html {
+    font-size: 16px; /* base font size : 1rem */
+ }
+
+ body{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1vh;
+ }
+
+ a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+ }
+
+
+
+.container {
+   max-width: 1280px;
+   width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   border:   1px solid #ccc;
+   height: 98vh;
+}
+
+/* ==========================================================================
+   Header 
+   ========================================================================== */
+
+header {
+    background-color:  #f8f9fa; 
+    height: 3em;
+    font-size: 2rem;
+    display:flex;
+    align-items: center; /* align vertically */
+    justify-content: center; /* align horizontally */
+    border-bottom: 1px solid #ccc;
+}   
+
+nav {
+    flex-basis: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ==========================================================================
+   Main 
+   ========================================================================== */
+
+main {
+    padding: 5%;
+    flex: 1 0 auto;
+}
+
+main p {
+    font-size: 1.3em;
+ }
+
+/* ==========================================================================
+   Footer 
+   ========================================================================== */
+
+footer {
+    text-align: center;
+    padding: 2%;
+    background-color:  #f8f9fa; 
+    border-top: 1px solid #ccc;
+    flex-shrink: 0;
+}
+
+footer p {
+    font-size: .9em;
+}
