@@ -1,9 +1,9 @@
-
+import Home from "../views/Home";
 
 const Main = () => {
   return (
     <main>
-        <p>This is the main content</p>
+        <Home />
     </main>
   );
 }   

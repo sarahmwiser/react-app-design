@@ -7,7 +7,7 @@
  *
  *  note: But you still can use one CSS file for reponsive styling or use a package*
  *
- *  sticky footer: https://css-tricks.com/couple-takes-sticky-footer/
+ *  sticky footer: https://css-tricks.com/a-clever-sticky-footer-technique/
  *
  */
 
@@ -19,7 +19,6 @@
 
  body{
     font-family: 'Raleway', sans-serif;
-    padding-top: 1vh;
  }
 
  a {
@@ -34,10 +33,8 @@
    max-width: 1280px;
    width: 90%;
    margin: auto;
-   display: flex;
-   flex-direction: column;
    border:   1px solid #ccc;
-   height: 98vh;
+   min-height: 100vh;
 }
 
 /* ==========================================================================
@@ -71,8 +68,7 @@ nav ul {
    ========================================================================== */
 
 main {
-    padding: 5%;
-    flex: 1 0 auto;
+    padding: 1%;  
 }
 
 main p {
@@ -84,13 +80,53 @@ main p {
    ========================================================================== */
 
 footer {
+    position: sticky;
+    top: 100vh;
     text-align: center;
     padding: 2%;
     background-color:  #f8f9fa; 
     border-top: 1px solid #ccc;
-    flex-shrink: 0;
 }
 
 footer p {
     font-size: .9em;
+}
+
+/* ==========================================================================
+   Home 
+   ========================================================================== */
+
+.jumbotron {
+    background-color: #f8f9fa;
+    width: 90%;
+    margin:  0 auto 2%;
+    padding: 3%;
+    border-radius: .5em;
+    border: 1px solid #ccc;
+}
+
+.jumbotron h1 {
+    font-size: 2em;
+    margin-bottom: 2rem;
+}
+
+.featured-movies-container {
+    width: 90%;
+    margin: auto;
+}
+
+.featured-movies {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem
+}
+
+.featured-movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-info {
+    margin-top: 1rem;
 }
