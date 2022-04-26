@@ -8,7 +8,7 @@
 - webpack devServer to ```listen``` for changes in develop to run the build process and serve the updated files to the browser
 - jest and react-testing-library to support code and DOM tests
 
-In the project directory, run the command:
+> n the project directory, run the command:
 
 #### `npm start`
 
