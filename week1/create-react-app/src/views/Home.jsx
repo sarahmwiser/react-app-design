@@ -1,3 +1,13 @@
+/*
+ * Three different locations to store images:
+ *   - public folder
+ *   - src/assets folder
+ *   - on the server
+ *  
+ *  https://www.upbeatcode.com/react/where-to-store-images-in-react-app/
+ *
+ */
+
 const Home = ({store}) => {
 
     return (
