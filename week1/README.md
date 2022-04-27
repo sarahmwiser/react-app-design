@@ -27,3 +27,13 @@ If you ever run into issue with installed packages giving odd errors in your Rea
  2. Delete the ```node_modules``` folder
  3. Type ```npm install`` in the terminal (root project path)
  4. DO NOT DELETE THE ```package.json``` file
+
+#### React Under-the-Hood
+
+A lot goes in making React work. If you are curious, here are some technical resources:
+
+- [React Deep Dive - Phillp Fabianek](https://www.youtube.com/watch?v=7YhdqIR2Yzo)
+- [React Fiber Overview - React's main algorithm](https://www.youtube.com/watch?v=ZCuYPiUIONs&t=28s)
+- [React Fiber Deep Dive](https://www.youtube.com/watch?v=0ympFIwQFJw)
+- [React Fiber Article](https://blog.logrocket.com/deep-dive-react-fiber/)
+- [React Theoretical Concepts](https://github.com/reactjs/react-basic)
