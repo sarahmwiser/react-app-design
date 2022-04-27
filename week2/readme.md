@@ -1,12 +1,17 @@
-# Week 2
-
-## Props
+## Movie Reviewer Database App - Part 2
 
 
 
 
-## Lifecycle methods
 
 
-## State
+
+
+## Using Bundlers (Vite or Parcel)
+
+### Vite
+
+
+
+### Parce
 
