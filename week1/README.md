@@ -41,7 +41,7 @@ Here are some resources on getting started with React:
 
 ### React Under-the-Hood
 
-A lot goes in making React work. If you are curious, here are some technical resources:
+A lot happens to make React work. If you are curious, here are some technical resources:
 
 - [React Deep Dive - Phillp Fabianek](https://www.youtube.com/watch?v=7YhdqIR2Yzo)
 - [React Fiber Overview - React's main algorithm](https://www.youtube.com/watch?v=ZCuYPiUIONs&t=28s)
