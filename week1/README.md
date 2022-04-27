@@ -28,7 +28,7 @@ If you ever run into issue with installed packages giving odd errors in your Rea
  3. Type ```npm install`` in the terminal (root project path)
  4. DO NOT DELETE THE ```package.json``` file
 
-#### React Under-the-Hood
+### React Under-the-Hood
 
 A lot goes in making React work. If you are curious, here are some technical resources:
 
