@@ -1,4 +1,5 @@
 import Navigation from "./Navigation.jsx"
+import LoginForm from "./LoginForm.jsx"
 
 const Header = ({links}) => {
 
@@ -6,6 +7,7 @@ const Header = ({links}) => {
 
         <header>
             <Navigation links={links} />
+            <LoginForm />
         </header>
     )
 }
