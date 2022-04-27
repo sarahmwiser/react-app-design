@@ -23,6 +23,6 @@ Runs the app in development mode.
 
 If you ever run into issue with installing packages with some odd errors in your React project follow these steps:
 
- 1. Delete the package-lock.json file
+ 1. Delete the package-lock.json file (tracks sub-dependencies of your packages)
  2. Delete the node_modules folder
  3. Type ```npm install`` in the terminal (root project path)
