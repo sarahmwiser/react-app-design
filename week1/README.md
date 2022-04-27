@@ -33,6 +33,7 @@ If you ever run into issue with installed packages giving odd errors in your Rea
 Here are some resources on getting started with React:
 
 - [React Roadmap](https://roadmap.sh/react)
+- [High Level Overview of React](https://www.youtube.com/watch?v=FRjlF74_EZk&t=40s)
 - [Steve Griggith Playlist](https://www.youtube.com/playlist?list=PLyuRouwmQCjmMfs-HOsDGoaN6JiYrC6Ms) 
 - [Free Scrimba React Course](https://scrimba.com/learn/learnreact)
 - [Let's Learn React - Learn with Jason Video Podcast](https://www.learnwithjason.dev/let-s-learn-react)
