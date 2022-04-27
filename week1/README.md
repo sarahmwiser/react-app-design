@@ -19,9 +19,9 @@ Runs the app in development mode.
 
 > The page will reload when you make changes. Look in the browser console for errors or linting warnings.
 
-#### Issues with installing packages
+#### Issues with installed packages
 
-If you ever run into issue with installing packages with some odd errors in your React project follow these steps:
+If you ever run into issue with installed packages giving odd errors in your React project follow these steps:
 
  1. Delete the ```package-lock.json``` file (tracks sub-dependencies of your packages)
  2. Delete the ```node_modules``` folder
