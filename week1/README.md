@@ -34,7 +34,7 @@ Here are some resources on getting started with React:
 
 - [React Roadmap](https://roadmap.sh/react)
 - [High Level Overview of React](https://www.youtube.com/watch?v=FRjlF74_EZk&t=40s)
-- [Steve Griggith Playlist](https://www.youtube.com/playlist?list=PLyuRouwmQCjmMfs-HOsDGoaN6JiYrC6Ms) 
+- [Steve Griffith Playlist](https://www.youtube.com/playlist?list=PLyuRouwmQCjmMfs-HOsDGoaN6JiYrC6Ms) 
 - [Free Scrimba React Course](https://scrimba.com/learn/learnreact)
 - [Let's Learn React - Learn with Jason Video Podcast](https://www.learnwithjason.dev/let-s-learn-react)
 - [Free Mini React Course](https://fullstackopen.com/osa1/reactin_alkeet)
