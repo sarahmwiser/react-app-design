@@ -1,8 +1,8 @@
 ## Movie Reviewer Database App - Part 1
 
-### This React app was created by Create React App which scaffolds a new React Project
+### Create React App 
 
-<a href="https://create-react-app.dev/">Create React App</a> is a build tool-chain that includes the following tools:
+<a href="https://create-react-app.dev/">Create React App</a> is a build tool-chain that scaffolds a new React project. It includes the following tools:
 
 - <a href="https://www.npmjs.com/package/react">react</a> and <a href="https://www.npmjs.com/package/react-dom">react-dom</a> packages
 - Babel to ```transpile``` the JSX to react elements (DOM elements)
