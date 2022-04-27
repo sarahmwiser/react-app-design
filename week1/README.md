@@ -37,7 +37,7 @@ Here are some resources on getting started with React:
 - [Steve Griffith Playlist](https://www.youtube.com/playlist?list=PLyuRouwmQCjmMfs-HOsDGoaN6JiYrC6Ms) 
 - [Free Scrimba React Course](https://scrimba.com/learn/learnreact)
 - [Let's Learn React - Learn with Jason Video Podcast](https://www.learnwithjason.dev/let-s-learn-react)
-- [Free Mini React Course](https://fullstackopen.com/osa1/reactin_alkeet)
+- [Free Mini React Course](https://fullstackopen.com/en/part1)
 - [Watch some crazy dudes code for 20 hours](https://www.youtube.com/watch?v=0mVbNp1ol_w&t=18382s)
 
 ### React Under-the-Hood
