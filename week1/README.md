@@ -28,12 +28,24 @@ If you ever run into issue with installed packages giving odd errors in your Rea
  3. Type ```npm install`` in the terminal (root project path)
  4. DO NOT DELETE THE ```package.json``` file
 
+### Getting Started
+
+Here are some resources on getting started with React:
+
+- [React Roadmap](https://roadmap.sh/react)
+- [Steve Griggith Playlist](https://www.youtube.com/playlist?list=PLyuRouwmQCjmMfs-HOsDGoaN6JiYrC6Ms) 
+- [Free Scrimba React Course](https://scrimba.com/learn/learnreact)
+- [Let's Learn React - Learn with Jason Video Podcast](https://www.learnwithjason.dev/let-s-learn-react)
+- [Free Mini React Course](https://fullstackopen.com/osa1/reactin_alkeet)
+- [Watch some crazy dudes code for 20 hours](https://www.youtube.com/watch?v=0mVbNp1ol_w&t=18382s)
+
 ### React Under-the-Hood
 
 A lot goes in making React work. If you are curious, here are some technical resources:
 
 - [React Deep Dive - Phillp Fabianek](https://www.youtube.com/watch?v=7YhdqIR2Yzo)
 - [React Fiber Overview - React's main algorithm](https://www.youtube.com/watch?v=ZCuYPiUIONs&t=28s)
+- [React Fiber Overview Article](https://github.com/acdlite/react-fiber-architecture)
 - [React Fiber Deep Dive](https://www.youtube.com/watch?v=0ympFIwQFJw)
 - [React Fiber Article](https://blog.logrocket.com/deep-dive-react-fiber/)
 - [React Theoretical Concepts](https://github.com/reactjs/react-basic)
