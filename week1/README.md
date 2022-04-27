@@ -1,7 +1,5 @@
 ## Movie Reviewer Database App - Part 1
 
-
-### 
 ### Create React App 
 
 <a href="https://create-react-app.dev/">Create React App</a> is a build tool-chain that scaffolds a new React project. It includes the following tools:
@@ -20,3 +18,11 @@ Runs the app in development mode.
  - Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 > The page will reload when you make changes. Look in the browser console for errors or linting warnings.
+
+#### Issues with installing packages
+
+If you ever run into issue with installing packages with some odd errors in your React project follow these steps:
+
+ 1. Delete the package-lock.json file
+ 2. Delete the node_modules folder
+ 3. Type ```npm install`` in the terminal (root project path)
