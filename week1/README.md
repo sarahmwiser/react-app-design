@@ -15,9 +15,7 @@
 
 #### npm install
 
-After you fork and clone the repo, install the necessary packages first:
-
-```npm install```
+After you fork and clone the repo, install the necessary packages first.
 
 #### npm start
 
