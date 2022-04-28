@@ -12,6 +12,13 @@
 - ESLint for code checking
 > In the project directory, run the command:
 
+
+#### npm install
+
+After you fork and clone the repo, install the necessary packages first:
+
+```npm install```
+
 #### npm start
 
 Runs the app in development mode.
