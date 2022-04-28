@@ -9,7 +9,7 @@
 - <a href="https://webpack.js.org/">Webpack</a> to ```bundle``` all the files into one file
 - Webpack devServer to ```listen``` for changes and run the ```build``` and ```serve``` the new files
 - Jest and React-Testing-Library to support code and DOM tests
-- ESLint for code checking
+- <a href="https://eslint.org/">ESLint</a> for code checking
 > In the project directory, run the command:
 
 
