@@ -1,0 +1,90 @@
+[
+    {
+      "id": 1,
+      "title": "The Unbearable Weight of Massive Talent",
+      "release": "2022",
+      "image": "../images/poster1.jpg",
+      "alt": "The Unbearable Weight of Massive Talent",
+      "description": "Unfulfilled and facing financial ruin, actor Nick Cage accepts a $1 million offer to attend a wealthy fan's birthday party. Things take a wildly unexpected turn when a CIA operative recruits Cage for an unusual mission.",
+      "rating": "",
+      "review": "",
+      "featured": false
+    },
+    {
+      "id": 2,
+      "title": "The Northernman",
+      "release": "2022",
+      "image": "../images/poster2.jpg",
+      "alt": "The Northernman",
+      "description": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father",
+      "rating": "",
+      "review": "",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Dr Strange in the Multiverse of Madness",
+      "release": "2022",
+      "image": "../images/poster3.jpg",
+      "alt": "Dr Strange in the Multiverse of Madness",
+      "description": "Dr Stephen Strange casts a forbidden spell that opens a portal to the multiverse. However, a threat emerges that may be too big for his team to handle.",
+      "rating": "",
+      "review": "",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Ready Player One",
+      "release": "2018",
+      "image": "../images/poster4.jpg",
+      "alt": "Ready Player One",
+      "description": "In the year 2045, climate change, war and poverty have ruined most of Earth's societies. Most people find escape and relief in the OASIS, a multiplayer online game with thousands of different locations, including games, online shopping, and even a thriving school system.",
+      "rating": "",
+      "review": "",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "The Matrix Resurrections",
+      "release": "2021",
+      "image": "../images/poster5.jpg",
+      "alt": "The Matrix Resurrections",
+      "description": "The machines terminated Neo to destroy Smith. When this happened, a program called The Analyst observed that Neo was an anomaly like none other and that Neo's choices were based on his love for Trinity, a companion that the earlier anomalies did not have. So he resuscitates both of them.",
+      "rating": "",
+      "review": "",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "In Time",
+      "release": "2011",
+      "image": "../images/poster6.jpg",
+      "alt": "In Time",
+      "description": "In a future where time is money and the wealthy can live forever, Will Salas is a poor man who rarely has more than a day's worth of life on his time clock. When he saves Henry Hamilton from time thieves, Will receives the gift of a century.",
+      "rating": "",
+      "review": "",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "Crazy Rich Asians",
+      "release": "2018",
+      "image": "../images/poster7.jpg",
+      "alt": "Crazy Rich Asians",
+      "description": "Rachel Chu is happy to accompany her longtime boyfriend, Nick, to his best friend's wedding in Singapore. She's also surprised to learn that Nick's family is extremely wealthy and he's considered one of the country's most eligible bachelors.",
+      "rating": "",
+      "review": "",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "Blade Runner 2049",
+      "release": "2017",
+      "image": "../images/poster8.jpg",
+      "alt": "Blade Runner 2049",
+      "description": "A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years.",
+      "rating": "",
+      "review": "",
+      "featured": true
+    }
+]
