@@ -20,13 +20,13 @@ const Home = (props) => {
 
             <section className="featured-movies-container">
                 <h2>Featured Movies:</h2>
-                <div className="featured-movies">
+                <div className="featured-movies-list">
                 {
                     props.movies.map((item, index) => {
                         return (
                             <div key={index} className="featured-movie">
                                 <a href="#"><img src={item.image} alt={item.alt} /></a>
-                                <div className="movie-info">
+                                <div className="featured-movie-info">
                                     <h3>{item.title}</h3>
                                 </div>
                             </div>

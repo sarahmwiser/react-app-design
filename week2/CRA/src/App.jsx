@@ -15,6 +15,18 @@ function App() {
   const [movies, setMovies] = useState(STORE);
   
   const featuredMovies = movies.filter(movie => movie.featured === true);
+ 
+  const addReview = (id, rating, comment) => {
+    const movie = movies.find(movie => movie.id === id);
+    movie.reviews.push(
+      {
+        user: `user$(Math.floor(Math.random() * 1000) + 100)`,
+        stars: rating,
+        comment: comment
+      }
+    );
+    setMovies([...movies, movie]);
+  }
 
   return (
 
@@ -23,7 +35,7 @@ function App() {
       <main>
         <Routes>
             <Route index element={<Home movies={featuredMovies} />} />
-            <Route path='movies' element={<Movies movies={movies}/>} />
+            <Route path='movies' element={<Movies movies={movies} addReview={addReview} />} />
             <Route path='signup' element={<SignUp />} />   
         </Routes>
       </main>

@@ -1,28 +1,18 @@
+import Movie from "./Movie";
 
-
-const MovieList = ({movies}) => {
-
+const MovieList = ({movies, addReview}) => {
+ 
     return (
-        <>
-            <div className="movie-list">
+            <div className="movies-list">
                 {
-                    movies.map((item, index) => {
-
+                    movies.map((movie, index) => {
                         return (
-                            <div key={index} className="movie">
-                                <div className="movie-info">
-                                    <h3>{item.title}</h3>
-                                    <p>{item.description}</p>
-                                </div>
-                                <div className="movie-image">
-                                    <img src={item.image} alt={item.alt} />
-                                </div>
-                            </div>
+                            <Movie key={index} movie={movie} addReview={addReview} />
                         )
-                    }   
+                    })
+                }
+            </div>
     )
-
-
 }
 
 export default MovieList;
