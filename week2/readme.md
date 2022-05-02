@@ -1,16 +1,3 @@
-## Movie Reviewer Database App - Part 2
-
-
-### Props
-
-
-
-### State
-
-
-
-
-
 ## Using other Bundlers (Vite or Parcel)
 
 Create React App is not the only build tool-chain you can use to scaffold a React project.
