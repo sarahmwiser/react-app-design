@@ -142,7 +142,34 @@ If a component below needs to use the state (e.g. displaying it), pass it down a
 
 ![Lift Up State](images/lift-up-state.png)
 
-### Event Handling
+### Event Handler
+
+Event handlers are your own functions that will be triggered in response to user interactions like clicking, hovering, focusing on form inputs, and so on.
+
+```JS
+export default function App () {
+
+   const handleClick = () => {
+       alert('You clicked me!');
+   }
+
+   return (
+     <button onClick={handleClick}>
+        Click me
+     </button>
+  );
+
+}
+```
+
+The handleClick function was passed it as a prop to <button>.  ```handleClick``` is an event handler. 
+
+Event handler functions:
+
+  - Are usually defined inside your components.
+  - Uses the naming convention of names that start with ```handle```, followed by the name of the event.
+
+
 
 
 
