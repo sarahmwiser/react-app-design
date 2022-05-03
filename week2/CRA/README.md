@@ -101,6 +101,17 @@ function App () {
 
 ![useState](images/use-state.png)
 
+```JS
+const handleChange = (event) => {
+   setSearchTerm(event.target.value);
+};
+```
+
+> Every component in a React application has one initial rendering followed by potential re-renderings.
+
+Usually the initial rendering happens when a React component gets displayed in the browser. Then
+whenever a side-effect occurs, like a user interaction (e.g. typing into an input field, API fetch call, etc.), the change is captured in React’s state which forces a re-rendering of all the components affected by this change (e.g. component that manages the state and all its descendant components).
+
 
 
 ### Event Handling
