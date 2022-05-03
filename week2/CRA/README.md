@@ -170,7 +170,7 @@ Event handler functions:
 
 > Remember, functions passed to event handlers must be passed not called.
 
-Correct:
+#### Correct:
 
 TTe handleClick function is passed as an onClick event handler. This tells React to remember it and only call your function when the user clicks the button.
 ```JS
@@ -179,7 +179,7 @@ TTe handleClick function is passed as an onClick event handler. This tells React
 <button onClick={() => handleClick('...')}>
 ```
 
-Incorrect:
+#### Incorrect:
 
 The ```()``` at the end of handleClick() fires the function immediately during rendering, without any clicks. This is because JavaScript inside the JSX { and } executes right away.
 
