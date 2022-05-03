@@ -129,7 +129,7 @@ The concept of the callback handler:
 2. We call this function in the child component, but have the actual implementation of the called function in the parent component (App). 
 3. When an (event) handler is passed as props from a parent component to its child component, it
 becomes a callback handler. 
-4. React props are always passed down the component tree and therefore functions that are passed down as callback handlers in props can be used to communicate up the component hierarchy.
+4. Functions that are passed down as callback handlers in props can be used to communicate up the component hierarchy.
 
 ### Lifting State
 
