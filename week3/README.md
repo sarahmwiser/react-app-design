@@ -18,4 +18,22 @@ data to start with. Next, we are loading data and eventually, we have the data a
 
 ### Styling
 
+There are many ways (aka methodologies) to style a React application.
+
+![Styling Patterns](images/styling-patterns.png)
+
+#### Modern Component Architecture
+
+There are a few “hard problems” when it comes to CSS. One of the very hardest has to do with CSS global nature: how do we structure large applications to avoid specificity wars and naming collisions? How do we identify which styles affect a given element?
+
+
+#### CSS Stylesheets 
+
+Writing CSS in a stylesheet is probably the most common and basic approach to styling a React application.
+
+Plain CSS (CSS in CSS) would be accomplished by either having a global CSS file (App.css) and having all of your styles in that one file OR creating separate .css files per component. Also, this would involve using preprocessors (e.g. SASS) as well.
+
+#### CSS Modules
+
+#### Styled Components (CSS-in-JS)
 
