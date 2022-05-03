@@ -133,7 +133,14 @@ becomes a callback handler.
 
 ### Lifting State
 
+Always manage state at a component level where every component that’s interested
+in it is one that either manages the state (using information directly from state, e.g. App component) or a component below the state managing component (using information from props). 
 
+> If a component below needs to update the state, pass a callback handler down to it which allows this particular component to update the state above in the parent component. 
+
+If a component below needs to use the state (e.g. displaying it), pass it down as props.
+
+![Lift Up State](images/lift-up-state.png)
 
 ### Event Handling
 
