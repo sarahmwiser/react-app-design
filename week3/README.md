@@ -1,11 +1,16 @@
-# Week 3
+## Movie Reviewer Database App - Part 3
 
-## Hooks
 
-## useState hook
 
-## Promises
+### React Asynchronous Data
 
-## Fetch
 
-## useEffect hook
+
+### Conditional Rendering
+
+
+
+
+### Styling
+
+
