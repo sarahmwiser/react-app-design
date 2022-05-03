@@ -1,5 +1,7 @@
 ## Movie Reviewer Database App - Part 2
 
+![Movie Reviewer Database Pt 2](images/movie-review-pt2.png)
+
 ### Routing
 
 Single-page applications (SPAs) are web apps that load once and then dynamically

@@ -1,5 +1,7 @@
 ## Movie Reviewer Database App - Part 1
 
+![Movie Reviewer Database Pt 1](images/movie-review-pt1.png)
+
 ### Create React App 
 
 <a href="https://create-react-app.dev/">Create React App</a> is a build tool-chain that scaffolds a new React project. It includes the following tools:
