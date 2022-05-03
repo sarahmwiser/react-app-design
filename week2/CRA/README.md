@@ -168,7 +168,21 @@ Event handler functions:
   - Are usually defined inside your components.
   - Uses the naming convention of names that start with ```handle```, followed by the name of the event.
 
+> Remember, functions passed to event handlers must be passed not called.
 
+Correct:
 
+TTe handleClick function is passed as an onClick event handler. This tells React to remember it and only call your function when the user clicks the button.
+```JS
+<button onClick={handleClick}>
 
+<button onClick={() => handleClick('...')}>
+```
 
+Incorrect:
+
+The ```()``` at the end of handleClick() fires the function immediately during rendering, without any clicks. This is because JavaScript inside the JSX { and } executes right away.
+
+```JS
+<button onClick={handleClick()}>
+```
