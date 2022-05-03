@@ -189,3 +189,35 @@ The ```()``` at the end of handleClick() fires the function immediately during r
 ```JS
 <button onClick={handleClick()}>
 ```
+
+### Event Object
+
+Event handlers receive an event object as their only argument. This event object is a cross-browser wrapper around the browser's native event object called ```SyntheticEvent```. It has the same interface as the browser’s native event, including stopPropagation() and preventDefault(), except the events work identically across all browsers.
+
+React defines the supported events according to the <a href="https://www.w3.org/TR/DOM-Level-3-Events/">W3C spec</a>.
+
+```JS
+export default function App() {
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log('You clicked submit.');
+  }
+
+  return (
+     <form onSubmit={handleSubmit}>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+```
+
+#### Passing Arguments to Event Handlers
+
+It is common to want to pass an extra parameter to an event handler. 
+
+```JS
+<button onClick={(e) => addRow(id, e)}>Add Row</button>
+```
+
+In both cases, the ```e``` argument representing the React event will be passed as a second argument.
