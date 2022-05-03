@@ -23,7 +23,7 @@ Not only does it do the "bundling" of all of your project files (.js, .css, etc)
 Includes out of the box:
 
  - <a href="https://parceljs.org/features/development/#dev-server">Dev server</a>
- - <a href="https://swc.rs/">SWC</a> (transpiling - faster than Babel, built in Rust)
+ - <a href="https://swc.rs/">SWC</a> (transpiling - faster than Babel, built with Rust)
  
 
  ```Setup for React```
