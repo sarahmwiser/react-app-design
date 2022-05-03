@@ -109,6 +109,32 @@ whenever a side-effect occurs, like a user interaction (e.g. typing into an inpu
 
 ![State flow](images/state-flow.png)
 
+### Callback Handlers in JSX
+
+While props are passed down as information from parent to child components, state can be used
+to change information over time. 
+
+When using props as vehicle to transport information, we can only talk to descendant components. When using state, we can make information stateful, but this information can also only be passed down by using props as container.
+
+There is no way to pass information up the component tree, since props are naturally only passed
+downwards. However, we can introduce a ```callback handler```.
+
+A callback handler is passed as function in props to another component and is executed there as callback handler and calls back to the place it was introduced.
+
+![Callback Handler](images/callback-handler.png)
+
+The concept of the callback handler: 
+
+1. We pass a function from a parent component (App) to a child component
+2. We call this function in the child component, but have the actual implementation of the called function in the parent component (App). 
+3. When an (event) handler is passed as props from a parent component to its child component, it
+becomes a callback handler. 
+4. React props are always passed down the component tree and therefore functions that are passed down as callback handlers in props can be used to communicate up the component hierarchy.
+
+### Lifting State
+
+
+
 ### Event Handling
 
 
