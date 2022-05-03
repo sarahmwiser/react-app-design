@@ -17,17 +17,15 @@ page might look like this:
 
  1. Browser makes a request to the server for this page
  2. The server uses the identifiers in the URL to retrieve data from a database.
- 3. The server returns a populated HTML document along with any other assets
-like CSS and images.
+ 3. The server returns a populated HTML document along with any other assets.
  4. The browser renders these assets.
 
  An evolution of that request flow using React might look like this:
 
  1. Browser makes a request to the server for this page.
- 2. The server doesn’t care about the pathname. Instead, it just returns a standard that includes the React app and any static assets index.html.
- 3. React app mounts.
- 4. The React app extracts the identifiers from the URL and uses these identifiers
-to make an API call to fetch the data.
+ 2. The server returns the React app files and any static assets.
+ 3. React app mounts (i.e. outputs the UI components to the browser)
+ 4. The React app makes an API call to fetch the data.
  5. The React app renders the page using data it received from the API call.
 
  When the user request to view a new "page" in a React app, the browser already contains the full React app. There’s no need to have the browser make a new request to fetch the same app again from the server and re-mount it. The React app just needs to update the
