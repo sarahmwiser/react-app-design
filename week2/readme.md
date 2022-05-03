@@ -17,7 +17,7 @@ But never fear, there are alternatives.
 
 ### Parcel
 
-Parcel is marketed a "zero-configuration" build tool.
+<a href="https://parceljs.org/docs/">Parcel</a> is marketed a "zero-configuration" build tool.
 
 Not only does it do the ```bundling``` of all of your project files (.js, .css, etc) no matter what framework you are using (React, Vue, etc) it will determine the necessary plugins and dev dependencies automatically (the ```build``` part).
 
@@ -40,7 +40,7 @@ Parcel apps start with an HTML file. Parcel follows the dependencies from there 
 
 ### Vite (pronounced "veet")
 
-Vite is another build tool that handles everything you need to setup a front-end project.
+<a href="https://vitejs.dev/guide/">Vite</a> is another build tool that handles everything you need to setup a front-end project.
 
 Vite has a build setup templates (with TypeScript) for:
 
