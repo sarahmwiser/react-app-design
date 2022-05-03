@@ -1,1 +1,1 @@
-## Using Vite
+### Sample React Boilerplate using Vite

@@ -1,1 +1,1 @@
-## Using Parcel
+### Sample React Boilerplate using Parcel
