@@ -73,5 +73,37 @@ This is all you need to use: <a href="https://reactrouter.com/docs/en/v6">https:
 
 ### State
 
+React state introduces a mutable data structure. 
+
+These stateful values get instantiated in a React component as so called state, can be passed with props as vehicle down to child components, but can also get mutated by using a function to modify the state. When a state gets mutated, the component with the state and all child components will re-render.
+
+Both concepts, props and state, have clear defined purposes: While props are used to pass information down the component hierarchy, state is used to change information over time. 
+
+Functions starting with use are called Hooks. ```useState``` is a built-in Hook provided by React. You can find other built-in Hooks in the React API reference. You can also write your own Hooks by combining the existing ones.
+
+By using useState, we are telling React that we want to have a stateful value which changes over
+time. And whenever this stateful value changes, the affected components will re-render to use it. React’s method takes an initial state as an argument. 
+
+Furthermore, calling this method will return an array with two entries: 
+
+The fist entry represents the current state.
+The second entry is a function to update this state.
+
+```JS
+
+import {useState} from 'react'
+
+function App () {
+   const [searchTerm, setSearchTerm] = useState('');
+ 
+   ...
+```
+
+![useState](images/use-state.png)
+
+
+
+### Event Handling
+
 
 
