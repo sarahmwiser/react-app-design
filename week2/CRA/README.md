@@ -157,8 +157,7 @@ export default function App () {
      <button onClick={handleClick}>
         Click me
      </button>
-  );
-
+  )
 }
 ```
 
