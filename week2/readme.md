@@ -1,4 +1,4 @@
-## Using other Bundlers (Vite or Parcel)
+## Other Build Tools  
 
 Create React App is not the only build tool you can use to scaffold a React project.
 
@@ -35,6 +35,7 @@ Parcel apps start with an HTML file. Parcel follows the dependencies from there 
  - creat an index.html in src folder
  - create an index.js in src folder
  - setup dev script: ```"dev": "parcel src/index.html --open"```
+ - open browser to https://localhost:1234
 
 ### Vite (pronounced "veet")
 
