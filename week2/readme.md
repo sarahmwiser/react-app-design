@@ -17,14 +17,15 @@ But never fear, there are alternatives.
 
 ### Parcel
 
-Parcel is marketed a "zero-configuration" bundler tool but really is a build tool as well.
-Not only does it do the "bundling" of all of your project files (.js, .css, etc) no matter what framework you are using (React, Vue, etc) it will determine the necessary plugins and dev dependencies automatically.
+Parcel is marketed a "zero-configuration" build tool.
+
+Not only does it do the ```bundling``` of all of your project files (.js, .css, etc) no matter what framework you are using (React, Vue, etc) it will determine the necessary plugins and dev dependencies automatically (the ```build``` part).
 
 Includes out of the box:
 
  - <a href="https://parceljs.org/features/development/#dev-server">Dev server</a>
  - <a href="https://swc.rs/">SWC</a> (transpiling - faster than Babel, built with Rust)
- 
+ - <a href="https://github.com/parcel-bundler/parcel-css">Parcel CSS</a> - CSS parser, compiler and minifier (also built with Rust)
 
  ```Setup for React```
 
@@ -39,3 +40,21 @@ Parcel apps start with an HTML file. Parcel follows the dependencies from there 
 
 ### Vite (pronounced "veet")
 
+Vite is another build tool that handles everything you need to setup a front-end project.
+
+Vite has a build setup templates (with TypeScript) for:
+
+- React
+- Preact
+- Svelte
+- Vue
+- Vanilla JS
+
+So you don't have to install anything else manually.
+
+ ```Setup for React```
+
+ - type ```npm create vite@latest```
+ - follow prompts to install React build setup
+
+You can try it out on <a href="https://vitejs.dev/guide/#trying-vite-online">StackBlitz</a> for yourself.
