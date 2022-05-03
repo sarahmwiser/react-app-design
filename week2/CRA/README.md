@@ -92,7 +92,6 @@ import {useState} from 'react'
 function App () {
    const [searchTerm, setSearchTerm] = useState('');
  
-   ...
 ```
 
 ![useState](images/use-state.png)
