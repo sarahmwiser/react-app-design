@@ -34,7 +34,7 @@ Parcel apps start with an HTML file. Parcel follows the dependencies from there 
  - npm i react react-dom
  - creat an index.html in src folder
  - create an index.js in src folder
- - setup dev script: ```"dev": "parcel src/index.html --open"```
+ - setup dev script (package.json): ```"dev": "parcel src/index.html --open"```
  - open browser to https://localhost:1234
 
 ### Vite (pronounced "veet")
