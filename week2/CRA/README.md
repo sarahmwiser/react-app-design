@@ -221,3 +221,14 @@ It is common to want to pass an extra parameter to an event handler.
 ```
 
 In both cases, the ```e``` argument representing the React event will be passed as a second argument.
+
+### Resources
+
+
+- [React Hooks Introduction](https://www.youtube.com/watch?v=cF2lQ_gZeA8)
+- [useState Explained](https://www.youtube.com/watch?v=O6P86uwfdR0)
+- [React Router v6 Youtube Playlist](https://www.youtube.com/playlist?list=PLC3y8-rFHvwjkxt8TOteFdT_YmzwpBlrG)
+- [React Events](https://www.youtube.com/watch?v=0XSDAup85SA)
+- [React Forms Explained](https://www.youtube.com/watch?v=t3r9xW-sxqs)
+- [React and Forms](https://www.youtube.com/watch?v=IkMND33x0qQ)
+- [React Lifecycle Explained - Classes](https://www.youtube.com/watch?v=38Lz08LNKEY)
