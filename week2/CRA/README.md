@@ -172,7 +172,10 @@ Event handler functions:
 
 #### Correct:
 
-TTe handleClick function is passed as an onClick event handler. This tells React to remember it and only call your function when the user clicks the button.
+The first example the handleClick function is passed as an onClick event handler. This tells React to remember it and only call your function when the user clicks the button.
+
+The second example wraps an anonymous function which creates a function to be called later.
+
 ```JS
 <button onClick={handleClick}>
 
